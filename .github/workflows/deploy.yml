@@ -25,8 +25,8 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.AUTO_ACTIONS }}
         with:
           source-directory: 'output'
-          destination-github-username: DoHyeongKwonn
-          destination-repository-name: Fan-Tion-FE
+          destination-github-username: jeongminDev
+          destination-repository-name: Settings
           user-email: ${{ secrets.EMAIL }}
           commit-message: ${{ github.event.commits[0].message }}
           target-branch: 'master'
